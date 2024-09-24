@@ -2,11 +2,10 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous (name="Team6976Auto1ParkingBlue", group="6976")
-public class Team6976AutoBlue2025 extends LinearOpMode{
+@Autonomous (name="Team4602Auto1ParkingBlue", group="4602")
+public class Team4602AutoBlue2025 extends LinearOpMode{
 
     Team6976HM2025 robot = new Team6976HM2025();
     ElapsedTime Time = new ElapsedTime();
