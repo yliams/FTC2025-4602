@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name = "Team4602TeleOp2025", group = "4602")
 public class Team4602TeleOp2025 extends LinearOpMode {
-    Team4602HM2025 robot = new Team6976HM2025();
+    Team4602HM2025 robot = new Team4602HM2025();
 
 
     @Override
