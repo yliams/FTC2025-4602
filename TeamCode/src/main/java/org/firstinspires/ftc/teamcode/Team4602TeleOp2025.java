@@ -24,8 +24,7 @@ public class Team4602TeleOp2025 extends LinearOpMode {
         robot.DriveLeftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         robot.DriveLeftFront.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 //        robot.Intake.setPosition(0.3);
-        // Aiden said to put a speaker in the robot and play a really loud sound, even though that's against the rules
-        // 40000HZ sine wave so no one will hear it ^ 
+        
         int count = 0;
         //robot.Lights.setPattern(RevBlinkinLedDriver.BlinkinPattern.BEATS_PER_MINUTE_PARTY_PALETTE);
         waitForStart();
