@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name = "Team4602TeleOp2025", group = "4602")
 public class Team4602TeleOp2025 extends LinearOpMode {
-    Team4602HM2025 robot = new Team6976HM2025();
+    Team4602HM2025 robot = new Team4602HM2025();
 
 
     @Override
@@ -24,7 +24,7 @@ public class Team4602TeleOp2025 extends LinearOpMode {
         robot.DriveLeftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         robot.DriveLeftFront.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 //        robot.Intake.setPosition(0.3);
-
+        
         int count = 0;
         //robot.Lights.setPattern(RevBlinkinLedDriver.BlinkinPattern.BEATS_PER_MINUTE_PARTY_PALETTE);
         waitForStart();
